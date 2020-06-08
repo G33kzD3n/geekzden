@@ -1,28 +1,135 @@
-import React, { useState, useEffect } from "react";
-
+import React, { useEffect } from "react";
+import $ from "jquery";
 const Navbar = () => {
-  const [scrollPosition, setSrollPosition] = useState(0);
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setSrollPosition(position);
-  };
-
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    if ($(".menu-trigger").length) {
+      $(".menu-trigger").on("click", function () {
+        $(this).toggleClass("active");
+        $(".header-area .nav").slideToggle(200);
+      });
+    }
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      var box = $(".header-text").height();
+      var header = $("header").height();
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+      if (scroll >= box - header) {
+        $("header").addClass("background-header");
+      } else {
+        $("header").removeClass("background-header");
+      }
+    });
+
+    // Window Resize Mobile Menu Fix
+    mobileNav();
+
+    $('a[href^="#welcome"]').addClass("active");
+
+    //smoothscroll
+    $(".menu-item").on("click", function (e) {
+      e.preventDefault();
+      var athis = this;
+      var target = this.hash,
+        menu = target;
+      var $target = $(target);
+
+      $("html, body")
+        .stop()
+        .animate(
+          {
+            scrollTop: $target.offset().top,
+          },
+          500,
+          "swing",
+          function () {
+            window.location.hash = target;
+            $(".menu-item").removeClass("active");
+            $(athis).addClass("active");
+          }
+        );
+
+      $(".main-nav > .nav").css("display", "none");
+      $(".menu-trigger").removeClass("active");
+    });
+
+    $(window).scroll(function (event) {
+      var scrollPos = $(document).scrollTop() + 80;
+
+      if (scrollPos === 0) {
+        $('a[href^="#welcome"]').addClass("active");
+        return;
+      }
+      $(".menu-item")
+        .not('[href="#none"]')
+        .not('[href="#dropdown"]')
+        .each(function () {
+          var currLink = $(this);
+          var refElement = $(currLink.attr("href"));
+
+          if (
+            refElement.position().top <= scrollPos &&
+            refElement.position().top + refElement.height() > scrollPos
+          ) {
+            $(".menu-item").removeClass("active");
+            currLink.addClass("active");
+          } else {
+            currLink.removeClass("active");
+          }
+        });
+    });
+
+    // Window Resize Mobile Menu Fix
+    $(window).on("resize", function () {
+      mobileNav();
+    });
+
+    // Window Resize Mobile Menu Fix
+    function mobileNav() {
+      var width = $(window).width();
+      $(".submenu").on("click", function () {
+        if (width < 992) {
+          $(".submenu ul").removeClass("active");
+          $(this).find("ul").toggleClass("active");
+        }
+      });
+    }
+
+    // Menu elevator animation
+    $("a[href*=\\#dropdown]:not([href=\\#none])").on("click", function () {
+      if (
+        window.location.pathname.replace(/^\//, "") ==
+          this.pathname.replace(/^\//, "") &&
+        window.location.hostname == this.hostname
+      ) {
+        var targetHash = this.hash;
+        var target = $(this.hash);
+        target = target.length
+          ? target
+          : $("[name=" + this.hash.slice(1) + "]");
+        if (target.length) {
+          var width = $(window).width();
+          if (width < 991) {
+            $(".menu-trigger").removeClass("active");
+            $(".header-area .nav").slideUp(200);
+          }
+          $("html,body").animate(
+            {
+              scrollTop: target.offset().top,
+            },
+            700,
+            "swing",
+            function () {
+              window.location.hash = targetHash;
+            }
+          );
+          return false;
+        }
+      }
+    });
   }, []);
 
   return (
-    <header
-      className={
-        scrollPosition < 626
-          ? "header-area header-sticky"
-          : "header-area header-sticky background-header"
-      }
-    >
+    <header className="header-area header-sticky">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -50,25 +157,25 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="submenu">
-                  <a href="# ">Drop Down</a>
+                  <a href="#dropdown">Drop Down</a>
                   <ul>
                     <li>
-                      <a href="# " className="menu-item">
+                      <a href="#none" className="menu-item">
                         About Us
                       </a>
                     </li>
                     <li>
-                      <a href="# " className="menu-item">
+                      <a href="#none" className="menu-item">
                         Features
                       </a>
                     </li>
                     <li>
-                      <a href="# " className="menu-item">
+                      <a href="#none" className="menu-item">
                         FAQ's
                       </a>
                     </li>
                     <li>
-                      <a href="# " className="menu-item">
+                      <a href="#none" className="menu-item">
                         Blog
                       </a>
                     </li>
@@ -80,7 +187,7 @@ const Navbar = () => {
                   </a>
                 </li>
               </ul>
-              <a href="# " className="menu-trigger">
+              <a href="#none" className="menu-trigger">
                 <span>Menu</span>
               </a>
               {/* <!-- ***** Menu End ***** --> */}

@@ -7,7 +7,6 @@ import Welcome from "./components/welcome";
 import About from "./components/about";
 import Testimonial from "./components/testimonial";
 import Contact from "./components/contact";
-import $ from "jquery";
 function App() {
   return (
     <div className="App">
