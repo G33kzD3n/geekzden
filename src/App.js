@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-import Preloader from "./components/preloader";
+// import Preloader from "./components/preloader";
 import Navbar from "./components/navbar";
 import Welcome from "./components/welcome";
 import About from "./components/about";
