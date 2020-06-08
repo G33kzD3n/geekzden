@@ -7,7 +7,7 @@ class Testimonial extends Component {
   render() {
     return (
       <Fragment>
-        <div class="right-image-decor"></div>
+        <div className="right-image-decor"></div>
         <section className="section" id="testimonials">
           <div className="container">
             <div className="row">
