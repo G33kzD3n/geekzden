@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 class Testimonial extends Component {
   state = {};
   render() {
@@ -23,7 +25,15 @@ class Testimonial extends Component {
               className="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
               data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
             >
-              <div className="owl-carousel owl-theme">
+              {/* <div className="owl-carousel owl-theme"> */}
+              <OwlCarousel
+                items={2}
+                className="owl-carousel"
+                loop
+                autoplay={true}
+                nav
+                margin={10}
+              >
                 <div className="item service-item">
                   <div className="author">
                     <i>
@@ -157,7 +167,8 @@ class Testimonial extends Component {
                     <span>New Villager</span>
                   </div>
                 </div>
-              </div>
+                {/* </div> */}
+              </OwlCarousel>
             </div>
           </div>
         </div>
