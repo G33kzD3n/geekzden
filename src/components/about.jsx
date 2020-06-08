@@ -135,7 +135,7 @@ class Cards extends Component {
               </div>
             </div>
           </div>
-        </section>{" "}
+        </section>
       </Fragment>
     );
   }
