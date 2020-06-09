@@ -8,7 +8,7 @@ class Welcome extends Component {
     return (
       <div className="welcome-area" id="welcome">
         {/* <!-- ***** Header Text Start ***** --> */}
-        <Fade>
+        <Fade duration={3000}>
           <div className="header-text">
             <div className="container">
               <div className="row">
