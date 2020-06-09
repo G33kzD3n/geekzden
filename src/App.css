@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.preloader-visible {
+  visibility: visible;
+}
+.preloader-hidden {
+  opacity: 0;
+  transition: all 500ms linear;
+  /* visibility: hidden; */
+}

@@ -65,7 +65,7 @@ class Contact extends Component {
               </div>
               <div className="right-content col-lg-6 col-md-12 col-sm-12">
                 <h2>
-                  More About <em>Lava</em>
+                  More About <em>Geekz Den</em>
                 </h2>
                 <p>
                   Phasellus dapibus urna vel lacus accumsan, iaculis eleifend
@@ -92,7 +92,7 @@ class Contact extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="# ">
+                    <a href="https://www.linkedin.com/company/g33kzd3n/">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
@@ -114,7 +114,7 @@ class Contact extends Component {
             <div className="col-lg-12">
               <div className="sub-footer">
                 <p>
-                  Copyright &copy; 2020 | Designed by
+                  Copyright &copy; {new Date().getFullYear()} | Designed by
                   <a rel="nofollow" href="https://geekzden.in">
                     {" "}
                     geekzden
