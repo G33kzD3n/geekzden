@@ -976,13 +976,13 @@ testimonials
   margin-bottom: -60px;
 }
 
-.owl-carousel .owl-nav button.owl-next span {
+.owl-carousel .owl-nav button.owl-next span{
+  right : -111px;
+  top: 40% ;
   z-index: 10;
-  top: 45%;
   border-radius: 10px;
   font-size: 46px;
   color: #fff;
-  right: -210px;
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -998,12 +998,12 @@ testimonials
 }
 
 .owl-carousel .owl-nav button.owl-prev span {
+  left : -50px;
+  top: 40% ;
   z-index: 9;
-  top: 30%;
   border-radius: 10px;
   font-size: 46px;
   color: #fff;
-  right: -150px;
   width: 80px;
   height: 80px;
   line-height: 80px;
