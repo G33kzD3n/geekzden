@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import $ from "jquery";
 // import * as Scroll from "react-scroll";
 import { Link } from "react-scroll";
+
 const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
@@ -55,7 +56,7 @@ const Navbar = () => {
             <nav className="main-nav">
               {/* <!-- ***** Logo Start ***** --> */}
               <a href="index.html" className="logo">
-                G33kz
+                Geekz Den
               </a>
               {/* <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** --> */}
@@ -108,7 +109,7 @@ const Navbar = () => {
                     duration={500}
                     // isDynamic={true}
                   >
-                    Testimonials
+                    Team
                   </Link>
                   {/* <a href="#testimonials" className="menu-item">
                     Testimonials
@@ -123,7 +124,7 @@ const Navbar = () => {
                   </a>
 
                   <ul className={subMenu}>
-                    <li>
+                    {/* <li>
                       <a href="#none" className="menu-item">
                         About Us
                       </a>
@@ -137,7 +138,7 @@ const Navbar = () => {
                       <a href="#none" className="menu-item">
                         FAQ's
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="#none" className="menu-item">
                         Blog

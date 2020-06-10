@@ -346,6 +346,7 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  padding-right: 50px;
 }
 
 .header-area .main-nav .nav {
