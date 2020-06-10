@@ -68,17 +68,20 @@ class Contact extends Component {
                   More About <em>Geekz Den</em>
                 </h2>
                 <p>
-                  Phasellus dapibus urna vel lacus accumsan, iaculis eleifend
-                  leo auctor. Duis at finibus odio. Vivamus ut pharetra arcu, in
-                  porta metus. Suspendisse blandit pulvinar ligula ut elementum.
+                  Looking for IT Services? We can help, leave your contacts and
+                  we will be in touch shortly
                   <br />
                   <br />
-                  If you need this contact form to send email to your inbox, you
-                  may follow our
-                  <a rel="nofollow" href="# " target="_parent">
+                  {/* If you need this contact form to send email to your inbox, you
+                  may follow our */}
+                  {/* <a rel="nofollow" href="# " target="_parent">
                     contact
                   </a>
-                  page for more detail.
+                  page for more detail. */}
+                  +91 7006984072
+                  <br /> g33kzd3n@gmail.com
+                  <br />
+                  <br /> Srinagar, Jammu and Kashmir, India 190002
                 </p>
                 <ul className="social">
                   <li>
@@ -92,7 +95,7 @@ class Contact extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/company/g33kzd3n/">
+                    <a href="# ">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
@@ -114,10 +117,10 @@ class Contact extends Component {
             <div className="col-lg-12">
               <div className="sub-footer">
                 <p>
-                  Copyright &copy; {new Date().getFullYear()} | Designed by
+                  Copyright &copy; {new Date().getFullYear()} |{" "}
                   <a rel="nofollow" href="https://geekzden.in">
                     {" "}
-                    geekzden
+                    G33kz D3n
                   </a>
                 </p>
               </div>

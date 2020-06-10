@@ -17,7 +17,7 @@ class Welcome extends Component {
                   // data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
                 >
                   <h1>
-                    Simple App that we <em>CREATE</em>
+                    A place where <em>G33kz</em> Meet
                   </h1>
                   <p>
                     Lava <a href="# ">HTML landing page</a> template is provided

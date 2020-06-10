@@ -32,7 +32,8 @@ class Testimonial extends Component {
                 >
                   {/* <div className="owl-carousel owl-theme"> */}
                   <OwlCarousel
-                    items={2}
+                    items={1}
+                    // items={2}
                     className="owl-carousel"
                     loop
                     autoplay={true}
@@ -66,12 +67,12 @@ class Testimonial extends Component {
                             <i className="fa fa-star"></i>
                           </li>
                         </ul>
-                        <h4>Jonathan Smart</h4>
+                        <h4>Nadeem Hilal</h4>
                         <p>
                           “Nullam hendrerit, elit a semper pharetra, ipsum nibh
                           tristique tortor, in tempus urna elit in mauris.”
                         </p>
-                        <span>Besta CTO</span>
+                        <span>CTO ;)</span>
                       </div>
                     </div>
                     <div className="item service-item">
@@ -101,12 +102,12 @@ class Testimonial extends Component {
                             <i className="fa fa-star"></i>
                           </li>
                         </ul>
-                        <h4>Martino Tino</h4>
+                        <h4>Basit Mir</h4>
                         <p>
                           “Morbi non mi luctus felis molestie scelerisque. In ac
                           libero viverra, placerat est interdum, rhoncus leo.”
                         </p>
-                        <span>Web Analyst</span>
+                        <span>Software Engineer</span>
                       </div>
                     </div>
                     <div className="item service-item">
@@ -129,14 +130,17 @@ class Testimonial extends Component {
                           <li>
                             <i className="fa fa-star"></i>
                           </li>
+                          <li>
+                            <i className="fa fa-star"></i>
+                          </li>
                         </ul>
-                        <h4>George Tasa</h4>
+                        <h4>Owais Drabu</h4>
                         <p>
                           “Fusce rutrum in dolor sit amet lobortis. Ut at
                           vehicula justo. Donec quam dolor, congue a fringilla
                           sed, maximus et urna.”
                         </p>
-                        <span>System Admin</span>
+                        <span>Software Engineer</span>
                       </div>
                     </div>
                     <div className="item service-item">
@@ -163,13 +167,13 @@ class Testimonial extends Component {
                             <i className="fa fa-star"></i>
                           </li>
                         </ul>
-                        <h4>Sir James</h4>
+                        <h4>Sajid Sajad</h4>
                         <p>
                           "Fusce rutrum in dolor sit amet lobortis. Ut at
                           vehicula justo. Donec quam dolor, congue a fringilla
                           sed, maximus et urna."
                         </p>
-                        <span>New Villager</span>
+                        <span>Software Developer</span>
                       </div>
                     </div>
                     {/* </div> */}

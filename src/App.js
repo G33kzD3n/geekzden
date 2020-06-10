@@ -7,6 +7,8 @@ import Welcome from "./components/welcome";
 import About from "./components/about";
 import Testimonial from "./components/testimonial";
 import Contact from "./components/contact";
+import ScrollToTop from "./components/scrollToTop";
+// import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 function App() {
   return (
     <div className="App">
@@ -27,6 +29,7 @@ function App() {
       <About></About>
       <Testimonial></Testimonial>
       <Contact></Contact>
+      <ScrollToTop></ScrollToTop>
     </div>
   );
 }
