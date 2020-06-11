@@ -105,8 +105,8 @@ class Contact extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="# ">
-                      <i className="fa fa-dribbble"></i>
+                    <a href="https://wa.me/7006984072">
+                      <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
                 </ul>

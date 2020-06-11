@@ -41,7 +41,7 @@ class ScrollToTop extends Component {
       <div className="scroll-to-top">
         {is_visible && (
           <div onClick={() => this.scrollToTop()}>
-            <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <button id="myBtn" title="Go to top">
               <i className="fa fa-angle-up fa-2x"></i>
             </button>
           </div>
