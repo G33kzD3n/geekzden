@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import $ from "jquery";
 // import * as Scroll from "react-scroll";
-import { Link } from "react-scroll";
+import { Link as HyperLink } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -62,7 +63,7 @@ const Navbar = () => {
                         <!-- ***** Menu Start ***** --> */}
               <ul className="nav" ref={mobileNavOpen}>
                 <li className="scroll-to-section">
-                  <Link
+                  <HyperLink
                     onClick={closeNavBar}
                     style={{ cursor: "pointer" }}
                     className="menu-item"
@@ -74,13 +75,13 @@ const Navbar = () => {
                     // isDynamic={true}
                   >
                     Home
-                  </Link>
+                  </HyperLink>
                   {/* <a href="#welcome" className="menu-item">
                     Home
                   </a> */}
                 </li>
                 <li className="scroll-to-section">
-                  <Link
+                  <HyperLink
                     onClick={closeNavBar}
                     style={{ cursor: "pointer" }}
                     className="menu-item"
@@ -92,13 +93,13 @@ const Navbar = () => {
                     // isDynamic={true}
                   >
                     About
-                  </Link>
+                  </HyperLink>
                   {/* <a href="#about" className="menu-item">
                     About
                   </a> */}
                 </li>
                 <li className="scroll-to-section">
-                  <Link
+                  <HyperLink
                     onClick={closeNavBar}
                     style={{ cursor: "pointer" }}
                     className="menu-item"
@@ -110,7 +111,7 @@ const Navbar = () => {
                     // isDynamic={true}
                   >
                     Team
-                  </Link>
+                  </HyperLink>
                   {/* <a href="#testimonials" className="menu-item">
                     Testimonials
                   </a> */}
@@ -120,7 +121,7 @@ const Navbar = () => {
                   style={{ borderWidth: 1, borderColor: "#eee" }}
                 >
                   <a href="#dropdown" onClick={handleDropDown}>
-                    Drop Down
+                    More
                   </a>
 
                   <ul className={subMenu}>
@@ -140,14 +141,14 @@ const Navbar = () => {
                       </a>
                     </li> */}
                     <li>
-                      <a href="#none" className="menu-item">
+                      <Link to={"/blog"} className="menu-item">
                         Blog
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="scroll-to-section">
-                  <Link
+                  <HyperLink
                     onClick={closeNavBar}
                     style={{ cursor: "pointer" }}
                     className="menu-item"
@@ -159,7 +160,7 @@ const Navbar = () => {
                     // isDynamic={true}
                   >
                     Contact Us
-                  </Link>
+                  </HyperLink>
                   {/* <a href="#contact-us" className="menu-item">
                     Contact Us
                   </a> */}
