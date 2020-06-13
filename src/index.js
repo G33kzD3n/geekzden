@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./templatemo-lava.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Preloader from "./components/preloader";
 // import Blog from "./container/Blog";
 
 //dynamic import for lazy loading
@@ -18,7 +19,13 @@ ReactDOM.render(
         <Route
           path="/blog"
           render={() => (
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense
+              fallback={
+                <div>
+                  <Preloader />
+                </div>
+              }
+            >
               <Blog />
             </Suspense>
           )}
