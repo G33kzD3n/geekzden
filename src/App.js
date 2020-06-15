@@ -23,13 +23,13 @@ function App() {
           know more
         </a>
       </header> */}
-      <Preloader></Preloader>
-      <Navbar></Navbar>
-      <Welcome></Welcome>
-      <About></About>
-      <Testimonial></Testimonial>
-      <Contact></Contact>
-      <ScrollToTop></ScrollToTop>
+      <Preloader />
+      <Navbar />
+      <Welcome />
+      <About />
+      <Testimonial />
+      <Contact />
+      <ScrollToTop />
     </div>
   );
 }
