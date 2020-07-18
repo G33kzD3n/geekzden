@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
 
-const welcome = () => {
+const Welcome = () => {
   return (
     <div className="welcome-area" id="welcome">
       {/* <!-- ***** Header Text Start ***** --> */}
@@ -74,4 +74,4 @@ const welcome = () => {
 //   }
 // }
 
-export default welcome;
+export default Welcome;
