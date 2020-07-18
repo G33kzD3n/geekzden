@@ -42,7 +42,8 @@ const Testimonial = () => {
                     <div className="author">
                       <i>
                         <img
-                          src="assets/testimonial-author-1.png"
+                          src="assets/nadeem.jpeg"
+                          className="image-bor"
                           alt="Author One"
                         />
                       </i>
@@ -70,15 +71,16 @@ const Testimonial = () => {
                         “Nullam hendrerit, elit a semper pharetra, ipsum nibh
                         tristique tortor, in tempus urna elit in mauris.”
                       </p>
-                      <span>CTO ;)</span>
+                      <span>Software Engineer</span>
                     </div>
                   </div>
                   <div className="item service-item">
                     <div className="author">
                       <i>
                         <img
-                          src="assets/testimonial-author-1.png"
+                          src="assets/basit.jpeg"
                           alt="Second Author"
+                          className="image-bor"
                         />
                       </i>
                     </div>
@@ -114,6 +116,7 @@ const Testimonial = () => {
                         <img
                           src="assets/testimonial-author-1.png"
                           alt="Author Third"
+                          className="image-bor"
                         />
                       </i>
                     </div>
@@ -145,8 +148,43 @@ const Testimonial = () => {
                     <div className="author">
                       <i>
                         <img
-                          src="assets/testimonial-author-1.png"
+                          src="assets/sami.jpg"
+                          alt="Author Third"
+                          className="image-bor"
+                        />
+                      </i>
+                    </div>
+                    <div className="testimonial-content">
+                      <ul className="stars">
+                        <li>
+                          <i className="fa fa-star"></i>
+                        </li>
+                        <li>
+                          <i className="fa fa-star"></i>
+                        </li>
+                        <li>
+                          <i className="fa fa-star"></i>
+                        </li>
+                        <li>
+                          <i className="fa fa-star"></i>
+                        </li>
+                      </ul>
+                      <h4>Sami Ullah</h4>
+                      <p>
+                        “Fusce rutrum in dolor sit amet lobortis. Ut at vehicula
+                        justo. Donec quam dolor, congue a fringilla sed, maximus
+                        et urna.”
+                      </p>
+                      <span>Software Engineer</span>
+                    </div>
+                  </div>
+                  <div className="item service-item">
+                    <div className="author">
+                      <i>
+                        <img
+                          src="assets/sajid.jpeg"
                           alt="Fourth Author"
+                          className="image-bor"
                         />
                       </i>
                     </div>

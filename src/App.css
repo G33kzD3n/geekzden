@@ -67,3 +67,7 @@
 #myBtn:hover {
   background-color: #fba70b; /* Add a dark-grey background on hover */
 }
+
+.image-bor {
+  border-radius: 50%;
+}

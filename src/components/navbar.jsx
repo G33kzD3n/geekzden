@@ -55,9 +55,12 @@ const Navbar = () => {
           <div className="col-12">
             <nav className="main-nav">
               {/* <!-- ***** Logo Start ***** --> */}
-              <a href="index.html" className="logo">
+              <Link to={"/"} className="logo">
                 Geekz Den
-              </a>
+              </Link>
+              {/* <a href="#" className="logo"> */}
+              {/* Geekz Den */}
+              {/* </a> */}
               {/* <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** --> */}
               <ul className="nav" ref={mobileNavOpen}>
