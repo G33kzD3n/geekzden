@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
 import $ from "jquery";
-// import * as Scroll from "react-scroll";
 import { Link as HyperLink } from "react-scroll";
 import { Link } from "react-router-dom";
 

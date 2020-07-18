@@ -8,6 +8,7 @@ import About from "./components/about";
 import Testimonial from "./components/testimonial";
 import Contact from "./components/contact";
 import ScrollToTop from "./components/scrollToTop";
+import { ToastContainer } from "react-toastify";
 // import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 function App() {
   return (
@@ -29,6 +30,17 @@ function App() {
       <About />
       <Testimonial />
       <Contact />
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={true}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       <ScrollToTop />
     </div>
   );
