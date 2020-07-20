@@ -15,7 +15,7 @@ const About = () => {
                   <div className="features-icon">
                     <h2>01</h2>
                     <img src="assets/features-icon-1.png" alt=""></img>
-                    <h4>Trend Analysis</h4>
+                    <h4>Web Development</h4>
                     <p>
                       Curabitur pulvinar vel odio sed sagittis. Nam maximus ex
                       diam, nec consectetur diam.
@@ -36,7 +36,7 @@ const About = () => {
                   <div className="features-icon">
                     <h2>02</h2>
                     <img src="assets/features-icon-2.png" alt=""></img>
-                    <h4>Site Optimization</h4>
+                    <h4>Mobile App Development</h4>
                     <p>
                       Curabitur pulvinar vel odio sed sagittis. Nam maximus ex
                       diam, nec consectetur diam.
@@ -57,7 +57,7 @@ const About = () => {
                   <div className="features-icon">
                     <h2>03</h2>
                     <img src="assets/features-icon-3.png" alt=""></img>
-                    <h4>Email Design</h4>
+                    <h4>Data Science</h4>
                     <p>
                       Curabitur pulvinar vel odio sed sagittis. Nam maximus ex
                       diam, nec consectetur diam.
