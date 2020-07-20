@@ -146,6 +146,9 @@ const Navbar = () => {
                       <Link to={"/blog"} className="menu-item">
                         Blog
                       </Link>
+                      <Link to={"/career"} className="menu-item">
+                        Career
+                      </Link>
                     </li>
                   </ul>
                 </li>
