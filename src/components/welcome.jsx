@@ -14,13 +14,12 @@ const Welcome = () => {
                 // data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
               >
                 <h1>
-                  A place where <em>G33kz</em> Meet
+                  Give Shape to your <em>ideas</em> with us
                 </h1>
                 <p>
-                  Lava <a href="# ">HTML landing page</a> template is provided
-                  by <a href="# ">TemplateMo</a>. You can modify and use it for
-                  your commercial websites for free of charge. This template is
-                  last updated on 29 Oct 2019.
+                  Connect with us and create your own brand and get the product that will take your business to new heights. 
+                  We are an online platform that provides development services. We excel in web application development,
+                  Mobile application development and Data sciences.
                 </p>
                 <a href="#about" className="main-button-slider">
                   KNOW US BETTER

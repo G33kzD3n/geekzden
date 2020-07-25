@@ -14,7 +14,7 @@ const signUp = {
   id: "signup",
   already: "Already have an account?",
   type: "Sign up",
-  header: "Join GEEKZ DEN",
+  header: "Join Bror infotech",
   message:
     "Create an account to receive great stories in your inbox, personalize your homepage, and follow authors and topics that you love.",
 };
@@ -130,8 +130,8 @@ const Modal = ({ type }) => {
             </div>
             <div className="modal-footer">
               <p className="px-5 text-center" style={{ fontSize: 10 }}>
-                To make Geekz Den work, we log user data and share it with
-                service providers. Click “{data.type}” above to accept Geekz Den
+                To make things work, we log user data and share it with
+                service providers. Click “{data.type}” above to accept our
                 Terms of Service & Privacy Policy.
               </p>
             </div>
