@@ -14,13 +14,8 @@ const Testimonial = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="center-heading">
                 <h2>
-                  What They Think <em>About Us</em>
+                  Our <em>Team</em>
                 </h2>
-                <p>
-                  Suspendisse vitae laoreet mauris. Fusce a nisi dapibus,
-                  euismod purus non, convallis odio. Donec vitae magna ornare,
-                  pellentesque ex vitae, aliquet urna.
-                </p>
               </div>
             </div>
             <Fade left>
@@ -67,10 +62,10 @@ const Testimonial = () => {
                         </li>
                       </ul>
                       <h4>Nadeem Hilal</h4>
-                      <p>
+                      {/* <p>
                         “Nullam hendrerit, elit a semper pharetra, ipsum nibh
                         tristique tortor, in tempus urna elit in mauris.”
-                      </p>
+                      </p> */}
                       <span>Software Engineer</span>
                     </div>
                   </div>
@@ -103,10 +98,10 @@ const Testimonial = () => {
                         </li>
                       </ul>
                       <h4>Basit Mir</h4>
-                      <p>
+                      {/* <p>
                         “Morbi non mi luctus felis molestie scelerisque. In ac
                         libero viverra, placerat est interdum, rhoncus leo.”
-                      </p>
+                      </p> */}
                       <span>Software Engineer</span>
                     </div>
                   </div>
@@ -114,7 +109,7 @@ const Testimonial = () => {
                     <div className="author">
                       <i>
                         <img
-                          src="assets/testimonial-author-1.png"
+                          // src="assets/testimonial-author-1.png"
                           alt="Author Third"
                           className="image-bor"
                         />
@@ -134,13 +129,16 @@ const Testimonial = () => {
                         <li>
                           <i className="fa fa-star"></i>
                         </li>
+                        <li>
+                          <i className="fa fa-star"></i>
+                        </li>
                       </ul>
                       <h4>Owais Drabu</h4>
-                      <p>
+                      {/* <p>
                         “Fusce rutrum in dolor sit amet lobortis. Ut at vehicula
                         justo. Donec quam dolor, congue a fringilla sed, maximus
                         et urna.”
-                      </p>
+                      </p> */}
                       <span>Software Engineer</span>
                     </div>
                   </div>
@@ -170,11 +168,11 @@ const Testimonial = () => {
                         </li>
                       </ul>
                       <h4>Sami Ullah</h4>
-                      <p>
+                      {/* <p>
                         “Fusce rutrum in dolor sit amet lobortis. Ut at vehicula
                         justo. Donec quam dolor, congue a fringilla sed, maximus
                         et urna.”
-                      </p>
+                      </p> */}
                       <span>Software Engineer</span>
                     </div>
                   </div>
@@ -204,11 +202,11 @@ const Testimonial = () => {
                         </li>
                       </ul>
                       <h4>Sajid Sajad</h4>
-                      <p>
+                      {/* <p>
                         "Fusce rutrum in dolor sit amet lobortis. Ut at vehicula
                         justo. Donec quam dolor, congue a fringilla sed, maximus
                         et urna."
-                      </p>
+                      </p> */}
                       <span>Software Developer</span>
                     </div>
                   </div>

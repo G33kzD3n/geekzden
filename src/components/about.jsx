@@ -15,12 +15,12 @@ const About = () => {
                   <div className="features-icon">
                     <h2>01</h2>
                     <img src="assets/features-icon-1.png" alt=""></img>
-                    <h4>Web Development</h4>
-                    <p>
+                    <h4>Software Development</h4>
+                    {/* <p>
                       Curabitur pulvinar vel odio sed sagittis. Nam maximus ex
                       diam, nec consectetur diam.
-                    </p>
-                    <a href="#testimonials" className="main-button">
+                    </p> */}
+                    <a href="#" className="main-button">
                       Read More
                     </a>
                   </div>
@@ -37,11 +37,11 @@ const About = () => {
                     <h2>02</h2>
                     <img src="assets/features-icon-2.png" alt=""></img>
                     <h4>Mobile App Development</h4>
-                    <p>
+                    {/* <p>
                       Curabitur pulvinar vel odio sed sagittis. Nam maximus ex
                       diam, nec consectetur diam.
-                    </p>
-                    <a href="#testimonials" className="main-button">
+                    </p> */}
+                    <a href="#" className="main-button">
                       Discover More
                     </a>
                   </div>
@@ -57,12 +57,12 @@ const About = () => {
                   <div className="features-icon">
                     <h2>03</h2>
                     <img src="assets/features-icon-3.png" alt=""></img>
-                    <h4>Data Science</h4>
-                    <p>
+                    <h4>Web Development</h4>
+                    {/* <p>
                       Curabitur pulvinar vel odio sed sagittis. Nam maximus ex
                       diam, nec consectetur diam.
-                    </p>
-                    <a href="#testimonials" className="main-button">
+                    </p> */}
+                    <a href="#" className="main-button">
                       More Detail
                     </a>
                   </div>
@@ -88,7 +88,7 @@ const About = () => {
                 ></img>
               </div>
             </Fade>
-            <div className="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
+            {/* <div className="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
               <ul>
                 <Fade right>
                   <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
@@ -144,7 +144,7 @@ const About = () => {
                   </li>
                 </Fade>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
