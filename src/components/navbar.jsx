@@ -94,7 +94,7 @@ const Navbar = () => {
                     duration={500}
                     // isDynamic={true}
                   >
-                    About
+                    Services
                   </HyperLink>
                   {/* <a href="#about" className="menu-item">
                     About

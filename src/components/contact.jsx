@@ -130,7 +130,7 @@ const Contact = () => {
             </div>
             <div className="right-content col-lg-6 col-md-12 col-sm-12">
               <h2>
-                More About <em>Geekz Den</em>
+                More About <em>Bror Infotech</em>
               </h2>
               <p>
                 Looking for IT Services? We can help, leave your contacts and we
@@ -144,16 +144,11 @@ const Contact = () => {
 					</a>
 					page for more detail. */}
                 +91 7006984072
-                <br /> g33kzd3n@gmail.com
+                <br /> info@brorinfotech.com
                 <br />
-                <br /> Srinagar, Jammu and Kashmir, India 190002
+                <br /> Srinagar, Jammu and Kashmir, 190001
               </p>
               <ul className="social">
-                <li>
-                  <a href="https://fb.com/templatemo">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </li>
                 <li>
                   <a href="# ">
                     <i className="fa fa-twitter"></i>
@@ -183,9 +178,9 @@ const Contact = () => {
             <div className="sub-footer">
               <p>
                 Copyright &copy; {new Date().getFullYear()} |{" "}
-                <a rel="nofollow" href="https://geekzden.in">
+                <a rel="nofollow" href="https://brorinfotech.com">
                   {" "}
-                  G33kz D3n
+                  Bror Infotech
                 </a>
               </p>
             </div>
