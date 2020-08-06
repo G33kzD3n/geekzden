@@ -15,11 +15,14 @@ const Welcome = () => {
               >
                 <h1>
                   Give Shape to your <em>ideas</em> with us
+                  {/* A place where <em>Geekz</em> Meet */}
                 </h1>
                 <p>
-                  Connect with us and create your own brand and get the product that will take your business to new heights. 
-                  We are an online platform that provides development services. We excel in web application development,
-                  Mobile application development and Data sciences.
+                  Connect with us and create your own brand and get the product
+                  that will take your business to new heights. We are an online
+                  platform that provides development services. We excel in web
+                  application development, Mobile application development and
+                  Data sciences.
                 </p>
                 <a href="#about" className="main-button-slider">
                   KNOW US BETTER

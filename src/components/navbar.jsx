@@ -56,7 +56,7 @@ const Navbar = () => {
             <nav className="main-nav">
               {/* <!-- ***** Logo Start ***** --> */}
               <Link to={"/"} className="logo">
-                Geekz Den
+                Bror
               </Link>
               {/* <a href="#" className="logo"> */}
               {/* Geekz Den */}
@@ -145,6 +145,9 @@ const Navbar = () => {
                     <li>
                       <Link to={"/blog"} className="menu-item">
                         Blog
+                      </Link>
+                      <Link to={"/career"} className="menu-item">
+                        Career
                       </Link>
                     </li>
                   </ul>

@@ -143,7 +143,7 @@ const Contact = () => {
 						contact
 					</a>
 					page for more detail. */}
-                +91 7006984072
+                +91 7889567946
                 <br /> info@brorinfotech.com
                 <br />
                 <br /> Srinagar, Jammu and Kashmir, 190001
@@ -165,7 +165,7 @@ const Contact = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://wa.me/7006984072">
+                  <a href="https://wa.me/78895667946">
                     <i className="fa fa-whatsapp"></i>
                   </a>
                 </li>
