@@ -15,7 +15,13 @@ const Testimonial = () => {
               <div className="center-heading">
                 <h2>
                   Our <em>Team</em>
+                  {/* What They Think <em>About Us</em>  */}
                 </h2>
+                <p>
+                  {/* Suspendisse vitae laoreet mauris. Fusce a nisi dapibus,
+                  euismod purus non, convallis odio. Donec vitae magna ornare,
+                  pellentesque ex vitae, aliquet urna. */}
+                </p>
               </div>
             </div>
             <Fade left>

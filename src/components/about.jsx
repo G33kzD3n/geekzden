@@ -100,7 +100,7 @@ const About = () => {
                         download purpose. You may{" "}
                         <a
                           rel="nofollow"
-                          href="https://templatemo.com/contact"
+                          href="/contact"
                           target="_parent"
                         >
                           contact
