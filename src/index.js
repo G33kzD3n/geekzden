@@ -13,6 +13,7 @@ import Preloader from "./components/preloader";
 //dynamic import for lazy loading
 const Blog = lazy(() => import("./container/blog"));
 const Career = lazy(() => import("./container/career"));
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

@@ -130,9 +130,9 @@ const Modal = ({ type }) => {
             </div>
             <div className="modal-footer">
               <p className="px-5 text-center" style={{ fontSize: 10 }}>
-                To make things work, we log user data and share it with
-                service providers. Click “{data.type}” above to accept our
-                Terms of Service & Privacy Policy.
+                To make things work, we log user data and share it with service
+                providers. Click “{data.type}” above to accept our Terms of
+                Service & Privacy Policy.
               </p>
             </div>
           </div>

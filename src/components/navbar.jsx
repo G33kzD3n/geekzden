@@ -56,7 +56,7 @@ const Navbar = () => {
             <nav className="main-nav">
               {/* <!-- ***** Logo Start ***** --> */}
               <Link to={"/"} className="logo">
-                Geekz Den
+                Bror
               </Link>
               {/* <a href="#" className="logo"> */}
               {/* Geekz Den */}

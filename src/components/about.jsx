@@ -20,7 +20,7 @@ const About = () => {
                       Curabitur pulvinar vel odio sed sagittis. Nam maximus ex
                       diam, nec consectetur diam.
                     </p> */}
-                    <a href="#" className="main-button">
+                    <a href=" #" className="main-button">
                       Read More
                     </a>
                   </div>
@@ -41,7 +41,7 @@ const About = () => {
                       Curabitur pulvinar vel odio sed sagittis. Nam maximus ex
                       diam, nec consectetur diam.
                     </p> */}
-                    <a href="#" className="main-button">
+                    <a href=" #" className="main-button">
                       Discover More
                     </a>
                   </div>
@@ -62,7 +62,7 @@ const About = () => {
                       Curabitur pulvinar vel odio sed sagittis. Nam maximus ex
                       diam, nec consectetur diam.
                     </p> */}
-                    <a href="#" className="main-button">
+                    <a href=" #" className="main-button">
                       More Detail
                     </a>
                   </div>

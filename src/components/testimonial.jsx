@@ -109,7 +109,7 @@ const Testimonial = () => {
                     <div className="author">
                       <i>
                         <img
-                          // src="assets/testimonial-author-1.png"
+                          src="assets/testimonial-author-1.png"
                           alt="Author Third"
                           className="image-bor"
                         />
